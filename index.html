@@ -1,60 +1,97 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Personal Website</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8" />
-    <style>
-	    body{
-	      font-family: monospace, sans-serif;
-	      margin: 0;
-	      padding:0;
-	    }
-	    header{
-		    background-color: #673ab7;
-		    color:white;
-		    text-align: center;
-		    padding: 1rem;
-	    }
-	    main{
-		    padding: 20px;
-	    }
-	    section{
-		    margin-bottom: 20px;
-	    }
-	    footer{
-		    background-color: #673ab7; 
-		    color: white; 
-		    text-align: center;
-		    padding: 1rem; 
-		    position: fixed;
-		    bottom: 0;
-		    width: 100%;	    
-	    }  
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Welcome to My Page</h1>
-    </header>
-    <main>
-      <section>
-        <h2>About Me</h2>
-        <p>
-          Hello, World! I love coding. I am here to learn CSS.
-        </p>
-      </section>
-      <section>
-        <h2>My Interests</h2>
-        <ul>
-          <li>Coding</li>
-          <li>Coding</li>
-          <li>Coding</li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2023 My Page. All rights reserved.</p>
-    </footer>
-  </body>
+
+<head>
+  <title>My Personal Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      font-family: monospace, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #673ab7;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #673ab7;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .list-item-inline {
+      display: inline;
+      padding: 0rem 0.5rem;
+    }
+
+    .link{
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome</h1>
+  </header>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am Sharath, I am here to learn CSS
+      </p>
+    </section>
+    <section>
+      <h2>Technologies</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>React</li>
+      </ul>
+      <p> Currently learning <b><u>Testing</u> and<u> TypeScript</u></b></p>
+    </section>
+  </main>
+  <footer>
+    <p>Connect with me at socials </p>
+    <ul>
+      <li class="list-item-inline">
+        <a class="link" href="https://github.com/sharath-io">
+          Github
+        </a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://www.linkedin.com/in/sharath-io/">
+          Linkedin
+        </a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://twitter.com/sharath_io">
+          Twitter
+        </a>
+      </li>
+    </ul>
+
+  </footer>
+</body>
+
 </html>
